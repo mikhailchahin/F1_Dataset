@@ -1,3 +1,20 @@
+
+# Importamos logging para registrar las operaciones del programa
+import logging
+
+# Importamos Path para indicar la ubicación del archivo de registro
+from pathlib import Path
+
+
+# Configuramos el archivo donde se guardarán los registros
+logging.basicConfig(
+    filename=Path(__file__).resolve().parent / "analisis.log",
+    level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+
 # Importamos las funciones para trabajar con el dataset
 from analisis import (
     cargar_dataset,
@@ -11,24 +28,14 @@ from analisis import (
 from graficos import generar_graficos
 
 
-# Importamos logging para registrar las operaciones del programa
-import logging
-
-# Importamos Path para indicar la ubicación del archivo de registro
-from pathlib import Path
-
-# Configuramos el archivo donde se guardarán los registros
-logging.basicConfig(
-    filename=Path(__file__).resolve().parent / "analisis.log",
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S"
-)
-
-
 # Función que muestra el menú principal del programa
 def mostrar_menu():
+    """Muestra las seis opciones disponibles del programa."""
+
+    # Mostramos el título del menú
     print("\n===== ANALIZADOR DE DATOS - FORMULA 1 =====")
+
+    # Mostramos las opciones disponibles
     print("1. Cargar dataset")
     print("2. Ver información general")
     print("3. Estadísticas de una columna")
@@ -39,6 +46,7 @@ def mostrar_menu():
 
 # Función principal del programa
 def main():
+    """Controla el menú y ejecuta las opciones seleccionadas."""
 
     # Inicializamos el dataset como vacío
     df = None
@@ -78,11 +86,13 @@ def main():
             # Generamos los gráficos utilizando el dataset cargado
             generar_graficos(df)
 
-                # Si el usuario elige salir, guardamos el resumen
         elif opcion == "6":
 
             # Guardamos los resultados en el archivo JSON
             guardar_resumen(df)
+
+            # Registramos que el usuario decidió salir
+            logging.info("Programa finalizado por el usuario.")
 
             # Mostramos el mensaje de salida
             print("Saliendo del programa...")
@@ -94,6 +104,9 @@ def main():
 
             # Informamos si el usuario ingresó una opción inválida
             print("Opción inválida. Intente nuevamente.")
+
+            # Registramos la opción incorrecta en el archivo de logs
+            logging.error("Opción de menú inválida: %s", opcion)
 
 
 # Ejecutamos el programa principal

@@ -9,3 +9,26 @@
 2026-11-23 16:10:51 | INFO | Gráfico guardado: graficos/barras_lluvia.png
 2026-11-23 16:10:52 | INFO | Gráfico guardado: graficos/histograma_temperatura.png
 2026-11-23 16:10:54 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 16:56:30 | ERROR | Intento de guardar resumen sin cargar el dataset.
+2026-11-23 16:56:43 | ERROR | Opción de menú inválida: 9
+2026-11-23 16:56:46 | ERROR | Intento de guardar resumen sin cargar el dataset.
+2026-11-23 16:56:46 | INFO | Programa finalizado por el usuario.
+2026-11-23 16:57:44 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 16:57:48 | INFO | Gráfico guardado: graficos/barras_lluvia.png
+2026-11-23 16:57:48 | INFO | Gráfico guardado: graficos/histograma_temperatura.png
+2026-11-23 16:57:52 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 16:57:52 | INFO | Programa finalizado por el usuario.
+2026-11-23 16:58:44 | ERROR | Intento de generar gráficos sin cargar el dataset.
+2026-11-23 16:59:35 | ERROR | Intento de guardar resumen sin cargar el dataset.
+2026-11-23 16:59:35 | INFO | Programa finalizado por el usuario.
+2026-11-23 17:00:43 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 17:00:58 | ERROR | Columna inexistente para estadísticas: AirTempp
+2026-11-23 17:01:34 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 17:01:34 | INFO | Programa finalizado por el usuario.
+2026-11-23 17:02:10 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 17:02:21 | ERROR | Columna no numérica seleccionada: Time
+2026-11-23 17:02:54 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 17:02:54 | INFO | Programa finalizado por el usuario.
+2026-11-23 17:04:07 | ERROR | Archivo CSV no encontrado: C:\Users\User\OneDrive\Escritorio\F1_Dataset\data\f1_weather_2018_2023.csv
+2026-11-23 17:04:28 | ERROR | Intento de guardar resumen sin cargar el dataset.
+2026-11-23 17:04:28 | INFO | Programa finalizado por el usuario.
