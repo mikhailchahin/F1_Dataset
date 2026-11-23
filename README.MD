@@ -35,7 +35,7 @@ Entre las variables disponibles se encuentran:
 - Round Number: número de carrera.
 - Year: año.
 
-**Fuente del dataset:** https://www.kaggle.com/
+**Fuente del dataset:** Kaggle (datos meteorológicos de Fórmula 1, temporadas 2018-2023).
 
 ## 4. Instalación y ejecución
 
