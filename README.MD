@@ -80,6 +80,17 @@ Los gráficos se guardan como imágenes PNG dentro de la carpeta `graficos/`.
 
 ### Gráfico de barras
 
+![Mediciones con y sin lluvia](graficos/barras_lluvia.png)
+
+### Histograma
+
+![Distribución de la temperatura del aire](graficos/histograma_temperatura.png)
+
+
+Los gráficos se guardan como imágenes PNG dentro de la carpeta `graficos/`.
+
+### Gráfico de barras
+
 `graficos/barras_lluvia.png`
 
 ### Histograma
