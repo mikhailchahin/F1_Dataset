@@ -1,0 +1,11 @@
+2026-11-23 15:54:05 | ERROR | Intento de consultar información sin cargar el dataset.
+2026-11-23 15:54:41 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 15:54:42 | INFO | Información general del dataset consultada.
+2026-11-23 15:54:47 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 15:54:52 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 15:54:55 | INFO | Información general del dataset consultada.
+2026-11-23 15:55:36 | INFO | Resumen guardado correctamente: resumen.json
+2026-11-23 16:10:49 | INFO | Dataset cargado: f1_weather_2018_2023.csv (18214 filas)
+2026-11-23 16:10:51 | INFO | Gráfico guardado: graficos/barras_lluvia.png
+2026-11-23 16:10:52 | INFO | Gráfico guardado: graficos/histograma_temperatura.png
+2026-11-23 16:10:54 | INFO | Resumen guardado correctamente: resumen.json
