@@ -86,17 +86,6 @@ Los gráficos se guardan como imágenes PNG dentro de la carpeta `graficos/`.
 
 ![Distribución de la temperatura del aire](graficos/histograma_temperatura.png)
 
-
-Los gráficos se guardan como imágenes PNG dentro de la carpeta `graficos/`.
-
-### Gráfico de barras
-
-`graficos/barras_lluvia.png`
-
-### Histograma
-
-`graficos/histograma_temperatura.png`
-
 ## 7. Archivos de resultados
 
 - `resumen.json`: almacena las dimensiones del dataset, las columnas, estadísticas y gráficos generados.
