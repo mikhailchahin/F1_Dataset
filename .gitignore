@@ -1,0 +1,12 @@
+# Ignoramos el entorno virtual de Python
+.venv/
+
+# Ignoramos archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Ignoramos configuraciones locales del editor
+.vscode/
+
+# Ignoramos archivos temporales de Jupyter
+.ipynb_checkpoints/

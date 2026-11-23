@@ -1,0 +1,5 @@
+# Librerías para análisis de datos
+pandas==3.1.1
+
+# Librerías para generar gráficos
+matplotlib==3.11.2
